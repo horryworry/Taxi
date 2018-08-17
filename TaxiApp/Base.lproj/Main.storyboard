@@ -32,7 +32,7 @@
                         <viewLayoutGuide key="safeArea" id="9PU-mk-zrv"/>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="6Vg-ws-YS2" id="3LO-qw-YNr"/>
+                        <outlet property="mapView" destination="6Vg-ws-YS2" id="TEw-2b-JCV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="utp-Ya-DVk" userLabel="First Responder" sceneMemberID="firstResponder"/>
