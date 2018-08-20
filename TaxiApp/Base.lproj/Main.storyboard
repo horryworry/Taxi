@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
+        <!--View-->
         <scene sceneID="294-Z1-VO5">
             <objects>
-                <viewController id="Qn2-zS-A3K" customClass="MainViewController" customModule="TaxiApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Qn2-zS-A3K" customClass="View" customModule="TaxiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mSu-WM-Kgm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,7 +32,7 @@
                         <viewLayoutGuide key="safeArea" id="9PU-mk-zrv"/>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="6Vg-ws-YS2" id="TEw-2b-JCV"/>
+                        <outlet property="mapView" destination="6Vg-ws-YS2" id="P64-eh-6Xd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="utp-Ya-DVk" userLabel="First Responder" sceneMemberID="firstResponder"/>

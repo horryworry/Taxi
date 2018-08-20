@@ -10,7 +10,6 @@
 import Foundation
 import CoreLocation
 
-
 struct TaxiData: Decodable {
 
     struct company: Decodable {
